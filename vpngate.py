@@ -460,9 +460,7 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "aimagazine.com:443,ping.pe:443,help.kolet.com:443,tracker.metricool.com:443,01-cctv.com:443,bbs.alipansou.com:443,webn.cc:443,www.deepl.com:443,mail.zrf.me:443,www.owlgraphic.com:443,api.uniapi.io:443,www.dbs.com.sg:443,uspto.gov:443,cf.3666888.xyz:443,moodle.org:443,www.trumpinternationalrealty.com:443,www.mfyx.cn:443,wsrv.nl:443,www.pixelexperience.org:443,www.trumpstruth.org:443,cf.nyanya.moe:443,aqua-aria.company:443,stlouiscountymo.gov:443,www.5199dy.com:443,academy.mastercard.com:443,tt.78607323.xyz:443,cnllm.com:443,redis.io:443,upfile.live:443,www.gov.il:443,zmxf.qzz.io:443,d.lma.de5.net:443,cf.1o.ee:443,www2.rarbggo.to:443,www.apnic.net:443,i.pixiv.nl:443,sunkist.com:443,kali.download:443,dash.domain.digitalplat.org:443,www.elysee.fr:443,01-qq.com:443,digitalocean.com:443,lose.edu.eu.org:443,mail.murata.com:443,sci-hub.al:443,dynadot.com:443,carpt.net:443,stonexbullion.com:443,aandd.co.jp:443,cdn.2x.nz:443,s.ee:443,noc.one:443
-
-提示：请遵守国家网络安全相关法律法规，请勿用于非法网络访问。",
+        "aimagazine.com:443,ping.pe:443,help.kolet.com:443,tracker.metricool.com:443,01-cctv.com:443,bbs.alipansou.com:443,webn.cc:443,www.deepl.com:443,mail.zrf.me:443,www.owlgraphic.com:443,api.uniapi.io:443,www.dbs.com.sg:443,uspto.gov:443,cf.3666888.xyz:443,moodle.org:443,www.trumpinternationalrealty.com:443,www.mfyx.cn:443,wsrv.nl:443,www.pixelexperience.org:443,www.trumpstruth.org:443,cf.nyanya.moe:443,aqua-aria.company:443,stlouiscountymo.gov:443,www.5199dy.com:443,academy.mastercard.com:443,tt.78607323.xyz:443,cnllm.com:443,redis.io:443,upfile.live:443,www.gov.il:443,zmxf.qzz.io:443,d.lma.de5.net:443,cf.1o.ee:443,www2.rarbggo.to:443,www.apnic.net:443,i.pixiv.nl:443,sunkist.com:443,kali.download:443,dash.domain.digitalplat.org:443,www.elysee.fr:443,01-qq.com:443,digitalocean.com:443,lose.edu.eu.org:443,mail.murata.com:443,sci-hub.al:443,dynadot.com:443,carpt.net:443,stonexbullion.com:443,aandd.co.jp:443,cdn.2x.nz:443,s.ee:443,noc.one:443",
     ).split(",")
     if h.strip()
 ]
